@@ -1,0 +1,20 @@
+P={0 8       1 1}
+P={2 4,6,2   1 1}
+P={4 6       1 1}
+
+#----------------------------------------
+# System description
+#----------------------------------------
+# In a system with two-level queue scheduling (queues 1 and 2), three processes are launched:
+#   P1 arrives at instant 0, P2 at instant 2, and P3 at instant 4.
+#   The temporal behavior of the processes is as follows:
+#   Total computation time (exclusive) on CPU are: P1=8 cycles, P2=6 cycles, and P3=6 cycles.
+#   Process P2 performs an I/O operation, with a duration of 6 cycles after 4 cycles of its computation time have elapsed.
+#   Processes P1 and P3 do not perform I/O operations. 
+#   The time quantum associated with each queue is:
+#     Queue1: 5,
+#     Queue2: 10.
+#   Queue1 has the highest priority.
+#   Processes are preempted by priority.
+
+
