@@ -16,7 +16,7 @@ showing the results in a Gantt chart together with some performance statistics.
 </p>
 
 ## Download
-The current version is [jMultiPlanif3.2](./jMultiPlanif3.2-2022040802.jar) which works with java 11.
+The current version is [jMultiPlanif3.2](./jMultiPlanif3.2-2025032400.jar) which works with java 11.
 
 In linux you can run it in command line by doing ```java -jar jMultiplanif.jar```.
 
